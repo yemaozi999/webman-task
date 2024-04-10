@@ -836,6 +836,7 @@ SQL;
                         'running_time' => round($endTime - $startTime, 6),
                         'create_time'  => $time,
                         'update_time'  => $time,
+                        'op_type'=>1
                     ]);
                     break;
                 case self::CLASS_CRONTAB:
@@ -879,6 +880,7 @@ SQL;
                         'running_time' => round($endTime - $startTime, 6),
                         'create_time'  => $time,
                         'update_time'  => $time,
+                        'op_type'=>1
                     ]);
                     break;
                 case self::URL_CRONTAB:
@@ -915,6 +917,7 @@ SQL;
                         'running_time' => round($endTime - $startTime, 6),
                         'create_time'  => $time,
                         'update_time'  => $time,
+                        'op_type'=>1
                     ]);
                     break;
                 case self::SHELL_CRONTAB:
@@ -950,6 +953,7 @@ SQL;
                         'running_time' => round($endTime - $startTime, 6),
                         'create_time'  => $time,
                         'update_time'  => $time,
+                        'op_type'=>1
                     ]);
                     break;
                 case self::EVAL_CRONTAB:
@@ -983,6 +987,7 @@ SQL;
                         'running_time' => round($endTime - $startTime, 6),
                         'create_time'  => $time,
                         'update_time'  => $time,
+                        'op_type'=>1
                     ]);
                     break;
             }
